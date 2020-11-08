@@ -1,5 +1,5 @@
 <template>
-  <div id="home"><!--
+  <div id="home">
     <articles>
       <banner />
     </articles>
@@ -8,7 +8,7 @@
 
     <subscribe />
 
-    <social />-->
+    <social />
   </div>
 </template>
 

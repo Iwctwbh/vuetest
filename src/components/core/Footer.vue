@@ -24,7 +24,6 @@
 
         <base-btn
           class="mr-0"
-          square
           title="Go to top"
           @click="$vuetify.goTo(0)"
         >

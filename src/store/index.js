@@ -9,11 +9,11 @@ export default new Vuex.Store({
     drawer: false,
     items: [
       {
-        text: 'Home',
+        text: '首 页',
         href: '#!',
       },
       {
-        text: 'About',
+        text: '关 于',
         href: '#about',
       },
     ],

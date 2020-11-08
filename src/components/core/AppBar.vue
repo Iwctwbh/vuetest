@@ -92,7 +92,8 @@
 
 <style>
 .hidden-sm-and-down {
-  margin: 5px;
+  font-weight: bold;
+  margin: 10px;
   transition: all 0.3s ease;
 }
 .hidden-sm-and-down:hover {
