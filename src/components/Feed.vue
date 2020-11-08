@@ -1,16 +1,16 @@
 <template>
   <v-container>
     <v-row>
-      <v-col cols="12">
-        <slot />
-      </v-col>
-
       <feed-card
         v-for="(article, i) in paginatedArticles"
         :key="article.title"
         :size="layout[i]"
         :value="article"
       />
+
+      <v-col cols="12">'
+        <slot />
+      </v-col>
     </v-row>
 
     <v-row align="center">
@@ -89,3 +89,5 @@
     },
   }
 </script>
+<style>
+</style>

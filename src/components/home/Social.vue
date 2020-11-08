@@ -3,7 +3,7 @@
     id="social"
     tag="section"
   >
-    <v-row>
+    <!--<v-row>
       <v-col
         cols="12"
         md="4"
@@ -16,7 +16,7 @@
         md="4"
       >
         <newest-posts />
-      </v-col>
+      </v-col>-->
 
       <v-col
         cols="12"

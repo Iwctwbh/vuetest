@@ -1,8 +1,8 @@
 <template>
   <div id="home">
-    <articles>
+    <!--<articles >
       <banner />
-    </articles>
+    </articles>-->
 
     <about />
 

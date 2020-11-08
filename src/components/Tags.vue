@@ -1,12 +1,12 @@
 <template>
   <v-container class="pa-0">
-    <base-subheading>Tags</base-subheading>
+    <base-subheading style="font-weight: bold">标 签</base-subheading>
 
     <v-chip
       v-for="(category, i) in categories"
       :key="i"
       class="mr-2"
-      color="secondary"
+      color="black"
       label
       small
       tag
