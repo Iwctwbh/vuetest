@@ -12,8 +12,8 @@
       <v-img
         :src="require(`@/assets/articles/${value.hero}`)"
         height="100%"
-        gradient="rgba(0, 0, 0, .42), rgba(0, 0, 0, .42)"
       >
+        <!--gradient="rgba(0, 0, 0, .42), rgba(0, 0, 0, .42)"-->
         <v-row
           v-if="!value.prominent"
           class="fill-height text-right ma-0"
@@ -22,7 +22,7 @@
             <v-chip
               label
               class="mx-0 mb-2 text-uppercase"
-              color="grey darken-3"
+              color="black"
               text-color="white"
               small
               @click.stop=""
@@ -40,15 +40,11 @@
           </v-col>
 
           <v-col align-self="end">
-            <v-chip
-              class="text-uppercase ma-0"
-              color="primary"
-              label
-              small
-              @click.stop=""
-            >
-              Read More
-            </v-chip>
+            <v-icon
+              v-text="'mdi-arrow-right-bold-circle'"
+              color="white"
+              large
+            ></v-icon>
           </v-col>
         </v-row>
       </v-img>
